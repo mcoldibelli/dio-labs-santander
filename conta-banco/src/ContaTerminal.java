@@ -14,17 +14,17 @@ public class ContaTerminal {
     private static void getInfo() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Insert account number: ");
+        System.out.println("Please, insert account number: ");
         accountNumber = scanner.nextInt();
         scanner.nextLine();
         
-        System.out.println("Insert agency number: ");
+        System.out.println("Please, insert agency number: ");
         agency = scanner.nextLine();
         
-        System.out.println("Insert customer name: ");
+        System.out.println("Please, insert customer name: ");
         customerName = scanner.nextLine();
 
-        System.out.println("Insert current balance: ");
+        System.out.println("Please, insert current balance: ");
         balance = scanner.nextDouble();
 
         scanner.close();
